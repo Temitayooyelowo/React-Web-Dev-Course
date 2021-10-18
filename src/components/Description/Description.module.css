@@ -1,0 +1,17 @@
+.center-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-inner {
+  color: white;
+  text-align: center;
+  width: 80%;
+}
+
+.Card {
+  background-color: #2e2e2e !important;
+  max-width: 600px;
+}

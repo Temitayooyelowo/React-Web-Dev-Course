@@ -1,0 +1,38 @@
+.center-align {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 10px;
+}
+
+.ingredient {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.horizontalLeftAlign {
+  align-items: start;
+}
+
+.price {
+  font-weight: 800;
+  color: #916bbf;
+}
+
+.input label {
+  font-weight: bold;
+}
+
+.input input {
+  width: 3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font: inherit;
+  padding-left: 0.5rem;
+}
+
+.horizontalLine {
+  border: 0.9px solid #393e46;
+}

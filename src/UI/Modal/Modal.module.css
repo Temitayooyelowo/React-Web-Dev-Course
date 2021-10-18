@@ -1,0 +1,63 @@
+.modal {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 65rem;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.modalBackground {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  z-index: 1;
+}
+
+.totalAmountWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: flex-end;
+  grid-gap: 10px;
+}
+
+.buttonGroup button {
+  height: 1.8rem;
+  width: 2.5rem;
+  background-color: white;
+  border: 1px solid #916bbf;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price {
+  font-weight: 800;
+  color: #916bbf;
+}
+
+.order {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.horizontalLine {
+  border: 0.9px solid rebeccapurple;
+}
+
+.footerButton {
+  background-color: #916bbf !important;
+  width: 4rem !important;
+  height: 2rem !important;
+  padding: 0.5em;
+}
